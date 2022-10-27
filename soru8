@@ -1,0 +1,6 @@
+a=[]
+for k in range(100,1000,2):
+    k=str(k)
+    if (k[0])==(k[1]) or (k[1])==(k[2]) or (k[0])==(k[2]) or (k[0])==(k[1])==(k[2]):
+     a.append(k)
+print(len(a))
