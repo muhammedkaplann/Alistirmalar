@@ -1,0 +1,4 @@
+for a in range(2005,10000):
+     a=str(a)
+     if int(a[0])+int(a[1])+int(a[2])+int(a[3])==(int(a)-2005):
+      print(a)
