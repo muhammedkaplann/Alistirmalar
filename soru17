@@ -1,0 +1,9 @@
+a=int(input("3 veya 4 basamaklı bir sayı giriniz"))
+if a<1000:
+    a=str(a)
+    if (a[0])==(a[2]):
+       print("palindromik sayı")
+elif 1000<a<10000:
+    a=str(a)
+    if (a[0])==(a[3]) and (a[1])==(a[2]):
+       print("palindromik sayı")
