@@ -1,0 +1,5 @@
+x=int(input("ilk terim"))
+y=int(input("son terim"))
+z=int(input("artış miktarı"))
+toplam=((x+y)/2)*(((y-x)/z)+1)
+print(toplam)
