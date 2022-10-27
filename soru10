@@ -1,0 +1,6 @@
+a=[]
+for k in range(10000,100000):
+    k=str(k)
+    if (int(k[0])+int(k[1]))==(int(k[3])+int(k[4])):
+        a.append(k)
+print(len(a))
