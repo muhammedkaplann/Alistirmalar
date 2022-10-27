@@ -1,0 +1,8 @@
+A=[]
+B=[]
+for a in range(0,121212):
+    for b in range(0,121212):
+        if a*b==121212:
+         A.append(a)
+         B.append(b)
+print(min(A-B))
