@@ -1,0 +1,6 @@
+toplam=1
+e=0
+for n in range(1,99999999999999):
+    toplam=toplam*(n+1)
+    e+=1/toplam
+print(e+1)
